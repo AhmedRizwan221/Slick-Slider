@@ -1,0 +1,131 @@
+/* slick_slider.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-section h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header-section-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-section-icons a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+  }
+  
+  .header-section-icons .buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  .main-trustpilot-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fixed-trustpilot {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .fixed-trustpilot span {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .trustpilot-star-icons {
+    display: flex;
+    color: #ffc107;
+  }
+  
+  .trustpilot-links {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .trustpilot-links-span {
+    margin-right: 5px;
+  }
+  
+  .trustpilot-links-a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .trustpilot-slider .transpilot-review-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .transpilot-review-item-header span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .transpilot-review-item-content {
+    margin: 10px 0;
+  }
+  
+  .transpilot-review-item-title {
+    font-size: 16px;
+  }
+  
+  .slick-prev, .slick-next {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    background-color: #0056b3;
+  }
+  
+  .slick-prev::before, .slick-next::before {
+    font-family: "FontAwesome";
+    font-size: 20px;
+  }
+  
+  .slick-prev::before {
+    content: '\f104'; /* FontAwesome icon for left arrow */
+  }
+  
+  .slick-next::before {
+    content: '\f105'; /* FontAwesome icon for right arrow */
+  }
+  
